@@ -3,32 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class Menu : MonoBehaviour
 {
-    //public GameObject AudioManager;
-    public void KillMusic()
-    {
-        Destroy(GameObject.Find("Music"));
-        PlayButton();
-    }
 
-    public void PlayButton()
-    {
-        SceneManager.LoadScene("Level");
-    }
+    public bool isStart;
+    public bool isQuit;
 
-    public void CreditScene()
+    void OnMouseUp()
     {
-        SceneManager.LoadScene("CreditScene");
-    }
-
-    public void BackScene()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
-    public void QuitGame()
-    {
-        Debug.Log("QUIT");
-        Application.Quit();
-    }
+        if(isStart)
+        {
+            Destroy(GameObject.Find("Music"));
+            SceneManager.LoadScene("Level");
+        }
+        if (isQuit)
+        {
+            Application.Quit();
+        }
+    } 
 }
