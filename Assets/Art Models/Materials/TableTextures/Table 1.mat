@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mouseToy
+  m_Name: Table 1
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _DETAIL_MULX2
@@ -23,15 +23,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7c48339408011504285193f8942e0407, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0618aaa67ac49c049a5b7657d924e3b3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 2800000, guid: 48737b41c62e23d4ab73da8e463d299c, type: 3}
+        m_Texture: {fileID: 2800000, guid: bc24c35c7813d3740913b0e4fb6b5952, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 2800000, guid: 8217ad67c3d1b7d4795f05c57b9f7704, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc88307c45c0bc940bbf5e781673d578, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 48737b41c62e23d4ab73da8e463d299c, type: 3}
+        m_Texture: {fileID: 2800000, guid: bc24c35c7813d3740913b0e4fb6b5952, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -77,6 +77,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+    - _Color: {r: 0.9811321, g: 0.52450454, b: 0.52450454, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
